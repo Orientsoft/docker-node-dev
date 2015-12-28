@@ -5,7 +5,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 # base dependencies
 RUN \
-  apt-get update && apt-get install -y curl git build-essential
+  apt-get update && apt-get install -y curl git build-essential tmux screen
 
 ENV NVM_DIR /usr/local/nvm
 
