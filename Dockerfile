@@ -29,4 +29,4 @@ RUN \
 RUN \
   . $NVM_DIR/nvm.sh && \
   nvm use v4 && \
-  npm i -g -U --verbose supervisor gulp gitignore
+  npm i -g -U --verbose supervisor gulp gitignore pm2
